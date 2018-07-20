@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Classes</title>
+<meta charset="utf-8">
+</head>
+<body>
+	<script>
+		class Rectangle {//Class created
+		constructor(length, breadth) {//Constructor created with properties
+		this.length = length;
+		this.breadth = breadth;
+		this.calculateArea = function () {//method created
+		 return "calculated" + " area";
+		}
+		}
+		}
+		let make = new Rectangle()//class instantiated
+		document.write(make.calculateArea());
+	</script>
+</body>
+</html>
